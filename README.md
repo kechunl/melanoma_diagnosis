@@ -5,7 +5,7 @@
 `cd hact-net
 conda env create -f environment.yml`
 
-2.[DGL](https://www.dgl.ai/pages/start.html)
+2. [DGL](https://www.dgl.ai/pages/start.html)
 `conda install -c dglteam dgl-cuda11.3`
 
 
