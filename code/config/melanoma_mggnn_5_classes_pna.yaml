@@ -1,0 +1,24 @@
+gnn_params:
+  layer_type: "gin_layer"
+  output_dim: 64
+  num_layers: 3
+  readout_op: "lstm"
+  readout_type: "mean"
+  aggregators: "mean max min std"
+  scalers: "identity amplification attenuation"
+  avg_d: 4
+  dropout: 0.
+  graph_norm: True
+  batch_norm: True
+  towers: 1
+  pretrans_layers: 1
+  posttrans_layers: 1
+  divide_input: False
+  residual: False
+  max_num_node: 80000
+  # initial_pool: True
+  # pool_ratio: 0.01
+  # assign_dim: 500
+classification_params:
+  num_layers: 2
+  hidden_dim: 128
